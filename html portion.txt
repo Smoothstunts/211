@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+
+  <header id="header" >
+
+    <h1 <u> Smooth Stunts Worldwide </u> </h1>
+    
+    <nav id="nav-bar">
+       
+       
+      <a class="nav-link" href="#portfolio"> portfolio </a> &nbsp
+      <a class="nav-link" href="#shop"> Shop </a> &nbsp
+      <a class="nav-link" href="#SocialMedia"> Social Media </a> &nbsp 
+       
+    </nav>
+   
+    <img
+       src="https://wallpaperaccess.com/full/7130204.jpg"
+       alt="Photo of background"
+       border="20px"
+       id="header-img"
+       width:"20%"
+      >
+
+      </header>
+
+ <body>
+   
+     <h3> A Short Glimpse into Stunt Riding </h3>
+
+     <section id="Portfolio">
+       <div id="storylayover" align="left" style="width:100%"; overflow:"hidden">
+
+         <iframe
+           id="video"
+           width="200"
+           height="200"
+           align="right"
+           src="https://www.youtube.com/watch?v=p7rkda-n7HY"
+           frameborder="0"
+           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> 
+           </iframe>
+      </section>
+
+     <section id="shop">
+        </section>
+
+     <section id="socialmedia">
+        </section>
+
+  </body>
+
+  <footer>
+     <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input
+              id="text"
+              type="text"
+              name="text"
+              placeholder="Any Questions?"
+              class="text"
+              required>
+              </input>
+      <br>
+
+              <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Your email"
+              class="email"
+              required>
+              </input>
+      <br>
+
+              <input
+              id="submit"
+              type="submit"
+              value="Ask away"
+              class="submit" 
+              >
+  </form>
+</footer>
